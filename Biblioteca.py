@@ -181,5 +181,6 @@ while True:
     else:
         print("Opcion no valida, intentelo de nuevo.")
 
-    for usuario in usuarios:
-        print(usuario["nombre"])
+for usuario in usuarios:
+    print(usuario["apellido"])
+     
